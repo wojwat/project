@@ -10,8 +10,8 @@ public class PetTester {
         tom.makeSound();
 
         Dog hunter = new Dog();
-        hunter.name = "Tom";
-        hunter.breed = "British";
+        hunter.name = "Hunter";
+        hunter.breed = "Buldog";
         hunter.eat();
         hunter.sleep();
         hunter.makeSound();
