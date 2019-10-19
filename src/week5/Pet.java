@@ -5,6 +5,11 @@ public class Pet {
     String breed;
 
 
+    public Pet(String name, String breed) {
+        this.name = name;
+        this.breed = breed;
+    }
+
     public void sleep()
     {
         System.out.println("Im going to sleep now ");
